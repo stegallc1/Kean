@@ -1,0 +1,25 @@
+Sign Up for Heroku
+
+Install Heroku CLI
+
+Create flask project
+
+Pip install gunicorn
+
+pip freeze
+
+pip freeze > requirements.txt (requirements.txt file should appear)
+
+touch Procfile
+
+web: gunicorn app:app (in Procfile)
+
+git init
+
+heroku create <whatever you want to name your app>
+
+git add .
+
+git commit -m "whatever your message is"
+
+git push heroku master
